@@ -41,8 +41,13 @@ const nextArrow = document.getElementById('nextArrow');
 const rightCaption = document.getElementById('rightCaption');
 
 const images = [
+    "../raw/2025_kanishka01.jpg",
+    "../raw/2025_kanishka03.jpg",
+    "../raw/2025_kanishka05.jpg",
     "../raw/Kanishka_Kanishka_Surrender.jpg",
     "../raw/Kanishka_Kanishka_Takeover.jpg",
+    "../raw/2025_kanishka08.jpg",
+    "../raw/2025_kanishka02.jpg",
     "../raw/Kanishka_Kanishka_UntitledNew3.jpg",
     "../raw/Kanishka_Kanishka_Birth_Photoetching.jpg",
     "../raw/Kanishka_Kanishka_WelcomeAlien.jpg",
@@ -51,12 +56,23 @@ const images = [
     "../raw/Kanishka_Kanishka_Slime Mold with Nani.jpg",
     "../raw/Kanishka_Kanishka_Braiding with Algae_Photogram.jpg",
     "../raw/Kanishka_Kanishka_Interconnected_Photogram with Algae.jpg",
-    "../raw/Kanishka_Kanishka_UntitledNew2.jpeg"
+    "../raw/Kanishka_Kanishka_UntitledNew2.jpeg",
+    "../raw/2025_kanishka04.jpg",
+    "../raw/2025_kanishka06.jpg",
+    "../raw/2025_kanishka07.jpg",
+    "../raw/2025_kanishka09.jpg",
+    "../raw/2025_kanishka10.jpg",
+    "../raw/2025_kanishka11.jpg",
 ];
 
 const captions = [
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Slime mold growth on photograph", "Stephen Kellen Gallery, NYC", "2025"],
     ["Untitled, Slime mold on photo rag", "Archival print on photo rag", "2025"],
     ["Untitled, Slime mold on photograph", "Archival print on photo rag", "2025"],
+    ["Slime mold growth on photograph","Stephen Kellen Gallery, NYC", "2025"],    
+    ["Installation Shot","Stephen Kellen Gallery, NYC", "2025"],    
     ["Untitled, Slime mold on photograph", "Archival print on photo rag", "2025"],
     ["Birth", "Photogravure", "2024"],
     ["Welcome Alien, Slime mold on photograph", "Archival print on photo rag", "2025"],
@@ -65,7 +81,13 @@ const captions = [
     ["Stardust, Slime mold on photograph", "Archival print on photo rag", "2025"],
     ["Algae Braid", "Photogram, Algae on silver gelatin paper", "2025"],
     ["Untitled", "Collage, Photo rag on silver gelatin print", "2025"],
-    ["Untitled, Slime mold on photograph", "Archival print on photo rag", "2025"]
+    ["Untitled, Slime mold on photograph", "Archival print on photo rag", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"],
+    ["Installation Shot", "Stephen Kellen Gallery, NYC", "2025"]
 ];
 
 let currentIndex = 0;
